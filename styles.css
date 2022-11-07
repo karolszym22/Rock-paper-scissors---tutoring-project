@@ -1,0 +1,45 @@
+.game-board{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.items-panel
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 100px;
+    font-size: 10px;
+}
+.item{
+    cursor: pointer;
+}
+
+.score-panel{
+    margin: 15px;
+}
+.container
+{
+    display: flex;
+}
+.game-panel{
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice-panel
+{
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+
+}
